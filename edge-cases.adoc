@@ -1,4 +1,5 @@
 = Edge Cases
+liva Ramarolahy <doc@example.com>
 :doctype: book
 
 == Long code listing
