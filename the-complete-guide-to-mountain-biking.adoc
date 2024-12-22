@@ -1,0 +1,167 @@
+= The Complete Guide to Mountain Biking: A new adventure.
+John Smith <john@example.com>; Sarah Johnson <sarah@example.com>
+v1.2, 2024-12-22
+:toc:
+:doctype: book
+:imagesdir: ./images
+:source-highlighter: rouge
+:icons: font
+:sectnums:
+
+[.lead]
+A comprehensive guide to mountain biking techniques, gear selection, and trail navigation.
+
+== Introduction
+
+Mountain biking combines technical skill, physical endurance, and a deep connection with nature. This guide will help both beginners and intermediate riders improve their skills.
+
+.Key Topics Covered
+* Basic techniques
+* Gear selection
+* Trail safety
+* Maintenance tips
+
+image::mountain-bike.jpg[Mountain Bike,300,200]
+[caption="Figure 1: "]
+.A typical mountain bike setup
+====
+This image shows the key components of a modern mountain bike.
+====
+
+== Essential Gear
+
+=== The Bike
+
+Choosing the right bike is crucial for your mountain biking journey.
+
+.Types of Mountain Bikes
+[cols="1,2,2"]
+|===
+|Type |Description |Best For
+
+|Hardtail
+|Front suspension only
+|Cross-country, beginners
+
+|Full Suspension
+|Front and rear suspension
+|Technical trails, downhill
+
+|Rigid
+|No suspension
+|Urban riding, experienced riders
+|===
+
+[TIP]
+====
+Always test ride before buying!
+====
+
+=== Safety Equipment
+
+IMPORTANT: Never ride without a helmet!
+
+* Helmet
+* Knee pads
+* Elbow pads
+* Gloves
+
+== Basic Techniques
+
+=== Proper Positioning
+
+[quote, Mike Thompson, Professional Mountain Biker]
+The key to good mountain biking is maintaining the right body position for the terrain.
+
+[source,python]
+----
+# Example of elevation calculation
+def calculate_elevation_gain(points):
+    total_gain = 0
+    for i in range(1, len(points)):
+        if points[i] > points[i-1]:
+            total_gain += points[i] - points[i-1]
+    return total_gain
+----
+
+=== Braking Techniques
+
+NOTE: Proper braking can make the difference between a successful ride and a crash.
+
+.Common Braking Mistakes
+[%collapsible]
+====
+* Braking during turns
+* Using only front brake
+* Gripping too hard
+====
+
+== Trail Navigation
+
+=== Reading Trail Markers
+
+image::trail-markers.jpg[Trail Markers,400,300]
+
+WARNING: Always stay on marked trails to protect nature and ensure your safety.
+
+=== Using GPS
+
+[source,json]
+----
+{
+  "trail": {
+    "name": "Mountain Loop",
+    "difficulty": "intermediate",
+    "length": "12km",
+    "elevation": {
+      "start": 1200,
+      "peak": 2100,
+      "gain": 900
+    }
+  }
+}
+----
+
+== Maintenance
+
+=== Basic Bike Care
+
+.Maintenance Schedule
+[cols="2,4,1"]
+|===
+|Component |Maintenance Task |Frequency
+
+|Chain
+|Clean and lubricate
+|Weekly
+
+|Tires
+|Check pressure
+|Before each ride
+
+|Brakes
+|Inspect pads
+|Monthly
+|===
+
+=== Advanced Repairs
+
+See the <<Essential Gear>> section for tool recommendations.
+
+[bibliography]
+== References
+
+* [[[smith-2023]]] Smith, John. "Mountain Biking Basics." _Outdoor Sports Journal_, 2023.
+* [[[johnson-2024]]] Johnson, Sarah. "Trail Navigation Techniques." _Mountain Biking Monthly_, 2024.
+
+[appendix]
+== Trail Difficulty Ratings
+
+.Standard Trail Ratings
+* Green: Beginner
+* Blue: Intermediate
+* Black: Advanced
+* Double Black: Expert
+
+[index]
+== Index
