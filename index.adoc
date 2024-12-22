@@ -1,0 +1,13 @@
+= Welcome to Ronto CMS.
+liva Ramarolahy <liva.ramarolahy@gmail.com>
+v1.0, 2024-12-22
+:toc:
+:doctype: book
+:imagesdir: ./images
+:source-highlighter: rouge
+:icons: font
+:sectnums:
+
+
+[.lead]
+This should be a index listing the latest articles
